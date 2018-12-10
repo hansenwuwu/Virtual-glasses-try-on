@@ -1,0 +1,81 @@
+﻿已經開始建置於 2016/4/14 下午 04:24:10。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\HDfaceNew\HDfaceNew.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\HDfaceNew.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x86" /LIBPATH:C:\opencv\build\x86\vc11\lib kinect20.lib Kinect20.Face.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\HDfaceNew.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\HDfaceNew.lib" /MACHINE:X86 Debug\main.obj
+         Debug\PLYLoader.obj
+         HDfaceNew.vcxproj -> C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\HDfaceNew.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase" "C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\NuiDatabase" /e /y /i /r
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll" "C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\Debug\" /c /y
+         :VCEnd
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignment.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignmentColor.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceAlignmentColor27.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceDetector.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceOrientation.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\FaceTrackingColor27.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\ExpressionRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\EyeLeftRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\EyeRightRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\FacialHairIRRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\FacialHairRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\Feature.config
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\GlassesIRRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\GlassesRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\LookingAwayRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\MouthMovedRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\MouthOpenRandomForest.model
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\Expression\NuiExpressionModelManifest.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\3DModel_globalPCA.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_F.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HLP.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HRP.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\AAMModel\PCAMaskBias.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\front.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\front_nose.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\left_nose.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EvalModel\right_nose.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\EyeClose.pra
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\EyeClose.wgh
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.pra
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.wgh
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.pra
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.wgh
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\close.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\close.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\lopen.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\front.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\front.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\left.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.mod.bin
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply
+         已複製 57 個檔案
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Redist\Face\x86\Kinect20.Face.dll
+         已複製 1 個檔案
+     1>專案 "C:\Users\翰昇\Documents\Visual Studio 2013\Projects\HDfaceNew\HDfaceNew\HDfaceNew.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.32
